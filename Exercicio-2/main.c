@@ -19,7 +19,7 @@ int main() {
 
     media = (nota1+nota2)/2;
 
-    if (media >= 7.0 || frequencia >= 75.0) {
+    if (media >= 7.0 && frequencia >= 75.0) {
         printf("%s APROVADO!\n", nome_estudante);
     } else {
         printf("%s REPROVADO!\n", nome_estudante);

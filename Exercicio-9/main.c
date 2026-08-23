@@ -20,7 +20,7 @@ int main() {
     printf("Digite a nota do %s: ", aluno->nome);
     scanf("%f", &aluno->nota);
 
-    if (aluno->nota >= 7.0 || aluno->faltas < 24) {
+    if (aluno->nota >= 7.0 && aluno->faltas < 24) {
         printf("Aluno %s APROVADO!\n", aluno->nome);
     } else {
         printf("Aluno %s REPROVADO!\n", aluno->nome);
