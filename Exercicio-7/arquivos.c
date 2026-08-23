@@ -26,6 +26,9 @@ int main() {
         return 1;
     }
 
+    /*
+     * A função fwrite vai escrever o conteúdo da variável 'mensagem' no arquivo.txt.
+     */
     const char* mensagem = "Olá! Tudo bem?\n";
     fwrite(mensagem, sizeof(char), strlen(mensagem), arquivo);
 
